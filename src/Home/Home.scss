@@ -1,0 +1,18 @@
+.home {
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.home__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.home__list-item {
+  list-style: none;
+}
