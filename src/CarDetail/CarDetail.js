@@ -13,7 +13,7 @@ export default class CarDetail extends React.Component{
                     : (this.props.match.params.name === 'mazda')
                     ? (<img  src="https://www.mazda.ru/globalassets/--08-19/m6_city_hero_2_1800x900-min.png" alt="mazda" className="about-img"/>)
                     : (this.props.match.params.name === 'audi')
-                    ? (<img src="https://s2.best-wallpaper.net/wallpaper/2880x1800/1608/Red-Audi-A4-Sedan-forest-grass_2880x1800.jpg" alt="audi" className="about-img"/>)
+                    ? (<img src="https://cdn.motor1.com/images/mgl/EM63M/s1/2019-audi-q8.jpg" alt="audi" className="about-img"/>)
                     : (null)
                 }
             </div>
